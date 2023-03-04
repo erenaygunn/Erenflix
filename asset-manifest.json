@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Erenflix/static/css/main.3e60a0e8.css",
+    "main.js": "/Erenflix/static/js/main.65c35e20.js",
+    "index.html": "/Erenflix/index.html",
+    "static/media/find.svg": "/Erenflix/static/media/find.b4a4094a5a45a4f56d344a7e314c27c5.svg",
+    "main.3e60a0e8.css.map": "/Erenflix/static/css/main.3e60a0e8.css.map",
+    "main.65c35e20.js.map": "/Erenflix/static/js/main.65c35e20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e60a0e8.css",
+    "static/js/main.65c35e20.js"
+  ]
+}
