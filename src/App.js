@@ -32,6 +32,11 @@ const App = () => {
         searchMovies('batman');
     }, []);
 
+    function handleSearch(event) {
+        // Check if the enter key was pressed
+        if (event.key === 'Enter') {
+          searchMovies(searchTerm)
+        }}
     
 
     return (
@@ -44,7 +49,7 @@ const App = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)
                 }
-                onKeyPress
+                onKeyDown={handleSearch}
                 />
                 <img
                   src={SearchIcon}
