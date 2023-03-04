@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import "./App.css"
 import MovieCard from './MovieCard';
 
-import SearchIcon from "./search.svg"
+import SearchIcon from "./find.svg"
 
 //234533b0
 
@@ -32,6 +32,8 @@ const App = () => {
         searchMovies('batman');
     }, []);
 
+    
+
     return (
         <div className='app'>
             <h1>Erenflix</h1>
@@ -40,7 +42,9 @@ const App = () => {
                 <input
                 placeholder='Search for Movies'
                 value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
+                onChange={(e) => setSearchTerm(e.target.value)
+                }
+                onKeyPress
                 />
                 <img
                   src={SearchIcon}
